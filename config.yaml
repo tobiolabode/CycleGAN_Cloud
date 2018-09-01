@@ -1,0 +1,8 @@
+trainingInput:
+  scaleTier: BASIC_GPU
+  packageUris: gs://my/trainer/path/package-0.0.0.tar.gz
+  pythonModule: trainer.task
+  region: europe-west1
+  jobDir: gs://my/training/job/directory
+  runtimeVersion: 1.9
+  pythonVersion: 3.5
